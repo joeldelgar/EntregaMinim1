@@ -43,6 +43,7 @@ public class Product implements Comparable<Product> {
         return numV;
     }
 
+    //Funció per incrementar el nombre de productes que s'han venut
     public void addnumV(int c){
         numV= numV+c;
     }
