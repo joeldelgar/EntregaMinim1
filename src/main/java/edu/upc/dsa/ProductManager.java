@@ -8,6 +8,7 @@ public interface ProductManager {
     public void servirComanda();
     public List<String> comandesCliente(String nom);
     public List<Product> llistaproductesV();
+    public int numComandes();
     public void addProduct(String nom, double preu);
     public void addClient(String nom);
     public Client BuscaClient (String nom);

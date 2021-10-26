@@ -28,7 +28,7 @@ public class ProductManagerImpl implements ProductManager{
     @Override
     public List<Product> llistaProductesOrdenats() {
         return null;
-    }
+
 
     @Override
     public void ferComanda(Comanda comanda) {
@@ -49,6 +49,11 @@ public class ProductManagerImpl implements ProductManager{
     @Override
     public List<Product> llistaproductesV() {
         return null;
+    }
+
+    @Override
+    public int numComandes() {
+        return servei.size();
     }
 
     @Override
